@@ -26,7 +26,9 @@ function minus(){
 minus();
 minus();
 
-let time = new Date();
+
+
+  let time = new Date();
 console.log(time);
 hr = time.getHours();
 console.log(hr);
@@ -36,7 +38,11 @@ sec = time.getSeconds();
 year = time.getFullYear();
 console.log(year);
 
+document.write(hr + ":" + min + ":" + sec)
+
+
 
 document.write('<div class="nav"><img src="./images/다운로드 (1).jpg" alt="electric"></div>');
 jaja = document.querySelector(".nav img");
-jaja.style('width' , '100vw');
+// jaja.style('width' , '100vw');
+
