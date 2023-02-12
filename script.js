@@ -37,3 +37,6 @@ year = time.getFullYear();
 console.log(year);
 
 
+document.write('<div class="nav"><img src="./images/다운로드 (1).jpg" alt="electric"></div>');
+jaja = document.querySelector(".nav img");
+jaja.style('width' , '100vw');
