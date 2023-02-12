@@ -46,3 +46,33 @@ document.write('<div class="nav"><img src="./images/다운로드 (1).jpg" alt="e
 jaja = document.querySelector(".nav img");
 // jaja.style('width' , '100vw');
 
+var test = [
+
+  { name: "김덕배"},
+  
+  { name: "한반두"},
+  
+  { name: "메시"},
+  
+  { name: "김덕배"},
+  
+  { name: "음바페"},
+  
+  { name: "사비"},
+  
+  { name: "네이마르"},
+  
+  { name: "수아레즈"},
+  
+  { name: "김덕배"},
+  
+  { name: "페드리"},
+  
+  { name: "홀란드"},
+  
+  { name: "김덕배"}
+  
+  ];
+  
+  console.log(test[2]);
+
